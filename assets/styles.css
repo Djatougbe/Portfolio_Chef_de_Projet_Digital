@@ -1,0 +1,727 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.preHeader {
+  width: 100%;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.preHeader h1 {
+  padding: 20px;
+}
+
+.preHeader button {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background-color: #6868CE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  -webkit-box-shadow: 0px 2.5px 7.5px #747070;
+          box-shadow: 0px 2.5px 7.5px #747070;
+}
+
+header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Squada One', cursive;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  padding: 40px;
+  font-size: 2em;
+  color: white;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+header a:hover {
+  color: black;
+}
+
+.topnav {
+  display: none;
+}
+
+.imgBlock {
+  z-index: 7;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.imgBlock h2 {
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+  text-align: center;
+  color: #6868CE;
+}
+
+.imgBlock img {
+  width: 400px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.presentationBlock {
+  z-index: 5;
+  width: 1100px;
+  border: 3px solid #6868CE;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.presentationBlock p {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.presentationBlock button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: none;
+  border: none;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+.presentationBlock button a {
+  border-radius: 10px;
+  padding: 10px 20px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  color: white;
+  background-color: #6868CE;
+  display: block;
+}
+
+.presentationBlock button a:hover {
+  background-color: white;
+  border: solid 1px #6868CE;
+  color: #6868CE;
+}
+
+.parcoursBlock2 {
+  z-index: 7;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  padding-top: 110px;
+}
+
+.parcoursBlock2 h2 {
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+  text-align: left;
+  color: #6868CE;
+  margin-bottom: 50px;
+}
+
+.parcoursBlock2 .parcoursBlock2In {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone {
+  border: 3px solid #6868CE;
+  height: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone p span {
+  color: #6868CE;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parcoursBlock2 .parcoursBlock2In .parcoursAlone:hover {
+  -webkit-box-shadow: 0px 0px 10px #747070;
+          box-shadow: 0px 0px 10px #747070;
+}
+
+.experienceBlock2 {
+  z-index: 7;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  padding-top: 110px;
+}
+
+.experienceBlock2 h2 {
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+  text-align: left;
+  color: #6868CE;
+  margin-bottom: 50px;
+}
+
+.experienceBlock2 .experienceBlock2In {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone {
+  border: 3px solid #6868CE;
+  height: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone p span {
+  color: #6868CE;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experienceBlock2 .experienceBlock2In .experienceAlone:hover {
+  -webkit-box-shadow: 0px 0px 10px #747070;
+          box-shadow: 0px 0px 10px #747070;
+}
+
+.experienceBlock3 {
+  z-index: 7;
+  width: 1100px;
+  border: 3px solid #6868CE;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.experienceBlock3 p {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.experienceBlock3 button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: none;
+  border: none;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+
+.experienceBlock3 button a {
+  border-radius: 10px;
+  padding: 10px 20px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  color: white;
+  background-color: #6868CE;
+  display: block;
+}
+
+.experienceBlock3 button a:hover {
+  background-color: white;
+  border: solid 1px #6868CE;
+  color: #6868CE;
+}
+
+.universBlock {
+  z-index: 7;
+  padding-top: 110px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.universBlock h2 {
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+  text-align: left;
+  color: #6868CE;
+  margin-bottom: 50px;
+}
+
+.universBlock img {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 5px #767676;
+          box-shadow: 0px 0px 5px #767676;
+}
+
+.universBlock2 {
+  z-index: 7;
+  width: 1100px;
+  border: 3px solid #6868CE;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.universBlock2 p {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.universBlock2 img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 25px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.universBlock2 img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer h2 {
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+  text-align: left;
+  color: #6868CE;
+  margin-bottom: 50px;
+}
+
+footer .footerInformation div {
+  margin-bottom: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footerInformation div img {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+footer .footerInformation div img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer .footerInformation div span {
+  margin-left: 25px;
+  color: #6868CE;
+}
+
+footer p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+@media all and (max-width: 1375px) {
+  .preHeader h1 {
+    padding: 20px;
+    font-size: 1.7em;
+  }
+  header a {
+    font-size: 1.4em;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  .preHeader {
+    display: none;
+  }
+  header {
+    display: none;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #6868CE;
+    position: relative;
+    display: block;
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+  }
+  .topnav h1 {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    font-family: 'Squada One', cursive;
+  }
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a:hover {
+    color: black;
+  }
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .burger {
+    font-size: 2rem;
+    padding-right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    right: 0;
+  }
+  .imgBlock {
+    width: 90%;
+  }
+  .presentationBlock {
+    width: 90%;
+  }
+  .parcoursBlock2 {
+    width: 90%;
+  }
+  .parcoursBlock2 .parcoursBlock2In {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .parcoursBlock2 .parcoursBlock2In .parcoursAlone {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .experienceBlock2 {
+    width: 90%;
+  }
+  .experienceBlock2 .experienceBlock2In {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .experienceBlock2 .experienceBlock2In .experienceAlone {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .experienceBlock3 {
+    width: 90%;
+  }
+  .universBlock {
+    width: 90%;
+  }
+  .universBlock2 {
+    width: 90%;
+  }
+  footer {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .imgBlock {
+    height: 100%;
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .imgBlock h2 {
+    font-size: 2.5em;
+  }
+  .imgBlock img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .presentationBlock {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+  .presentationBlock p {
+    font-size: 1.2em;
+  }
+  .parcoursBlock2 {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  .parcoursBlock2 h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #6868CE;
+    margin-bottom: 50px;
+  }
+  .parcoursBlock2 .parcoursBlock2In {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .parcoursBlock2 .parcoursBlock2In .parcoursAlone {
+    -webkit-box-shadow: 0px 0px 5px #9d9b9b;
+            box-shadow: 0px 0px 5px #9d9b9b;
+    border: none;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .parcoursBlock2 .parcoursBlock2In .parcoursAlone h4 {
+    font-size: 1.2em;
+  }
+  .parcoursBlock2 .parcoursBlock2In .parcoursAlone p {
+    font-size: 1.1em;
+  }
+  .parcoursBlock2 .parcoursBlock2In .parcoursAlone img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .experienceBlock2 {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  .experienceBlock2 h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #6868CE;
+    margin-bottom: 50px;
+  }
+  .experienceBlock2 .experienceBlock2In {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .experienceBlock2 .experienceBlock2In .experienceAlone {
+    -webkit-box-shadow: 0px 0px 5px #9d9b9b;
+            box-shadow: 0px 0px 5px #9d9b9b;
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0px;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .experienceBlock2 .experienceBlock2In .experienceAlone h4 {
+    font-size: 1.2em;
+  }
+  .experienceBlock2 .experienceBlock2In .experienceAlone p {
+    font-size: 1.1em;
+  }
+  .experienceBlock2 .experienceBlock2In .experienceAlone img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .experienceBlock3 {
+    width: 90%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .experienceBlock3 p {
+    font-size: 1.2em;
+  }
+  .universBlock {
+    width: 90%;
+    margin-bottom: 100px;
+  }
+  .universBlock h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .universBlock2 {
+    width: 90%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  .universBlock2 p {
+    font-size: 1.2em;
+  }
+  footer {
+    width: 90%;
+  }
+  footer h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  footer .footerInformation div {
+    font-size: 1.2em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/*# sourceMappingURL=styles.css.map */
